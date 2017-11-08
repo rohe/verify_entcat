@@ -1,101 +1,121 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
 *.py[cod]
-*$py.class
 
 # C extensions
 *.so
 
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
+# Packages
 *.egg
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
 
 # Installer logs
 pip-log.txt
-pip-delete-this-directory.txt
 
 # Unit test / coverage reports
-htmlcov/
-.tox/
 .coverage
-.coverage.*
-.cache
+.tox
 nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
 
 # Translations
 *.mo
-*.pot
 
-# Django stuff:
-*.log
-local_settings.py
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
 
-# Flask stuff:
-instance/
-.webassets-cache
+server_conf.py
 
-# Scrapy stuff:
-.scrapy
+server_conf.py
 
-# Sphinx documentation
-docs/_build/
+.idea/.name
 
-# PyBuilder
-target/
+.idea/encodings.xml
 
-# Jupyter Notebook
-.ipynb_checkpoints
+.idea/misc.xml
 
-# pyenv
-.python-version
+.idea/modules.xml
 
-# celery beat schedule file
-celerybeat-schedule
+.idea/scopes/scope_settings.xml
 
-# SageMath parsed files
-*.sage.py
+.idea/vcs.xml
 
-# dotenv
-.env
+.idea/verify_entcat.iml
 
-# virtualenv
-.venv
-venv/
-ENV/
+.idea/workspace.xml
 
-# Spyder project settings
-.spyderproject
-.spyproject
+conf_coc.py
 
-# Rope project settings
-.ropeproject
+conf_nren.py
 
-# mkdocs documentation
-/site
+conf_re_eu.py
 
-# mypy
-.mypy_cache/
+conf_re_hei.py
+
+conf_re_nren.py
+
+conf_re_nren_sfs.py
+
+conf_sfs.py
+
+create_key.sh
+
+modules/test.mako.py
+
+pki/mycert.pem
+
+pki/mykey.pem
+
+server.csr
+
+server.csr
+
+server.csr
+
+server.csr
+
+server.csr
+
+server.key
+
+server.key.org
+
+sp.xml
+
+spx.log
+
+swamid-2.0.xml
+
+swamid2.md
+
+xenosmilus.umdc.umu.se-8086-coc-sp.xml
+
+xenosmilus.umdc.umu.se-8086-nren-sp.xml
+
+xenosmilus.umdc.umu.se-8086-re_eu-sp.xml
+
+xenosmilus.umdc.umu.se-8086-re_hei-sp.xml
+
+xenosmilus.umdc.umu.se-8086-re_nren-sp.xml
+
+xenosmilus.umdc.umu.se-8086-re_nren_sfs-sp.xml
+
+xenosmilus.umdc.umu.se-8086-sfs-sp.xml
+
+xenosmilus.umdc.umu.se-8086-sp.xml
+
+server.key.org
+
+server.csr
+
+.gitignore
